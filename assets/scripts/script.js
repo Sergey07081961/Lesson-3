@@ -38,5 +38,6 @@ default:
 alert( "4.Вы на пенсии. Пора спать" );
 }
 }
-btn.addEventListener('click',ageMy);
+let btn2= document.getElementById ('btn2');
+btn2.addEventListener('click',ageMy);
 
